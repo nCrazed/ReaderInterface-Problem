@@ -1,0 +1,22 @@
+{
+    "name": "example/readerinterface-problem",
+    "description": "Demonstration of a probelm with ReaderInterface in the box/spout package.",
+    "require": {
+        "box/spout": "^1.0"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests"]
+    },
+    "authors": [
+        {
+            "name": "Edvin Malinovskis",
+            "email": "github@edvin.io"
+        }
+    ]
+}
